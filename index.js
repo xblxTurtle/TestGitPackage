@@ -1,10 +1,5 @@
-let http = require('http');
+let myFunc = function () {
+    console.log("This is My func!!!")
+}
 
-http
-.createServer(function (req,res) {
-    res.writeHead(200); 
-    res.end("hello world\n"); 
-})
-.listen(8080, function (){
-    console.log('listening to 8080')
-})
+module.exports.myFunc = myFunc;
