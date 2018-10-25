@@ -1,5 +1,5 @@
 {
-  "name": "@myscope/testgitpackage",
+  "name": "testgitpackage",
   "version": "1.0.0",
   "description": "test npm package published  on git",
   "main": "index.js",
